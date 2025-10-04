@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoGain Nexus: Condensed Earning Hub</title>
+    <!-- Load Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Importing Sora (Body) and Unbounded (Headlines) */
+        @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&family=Unbounded:wght@200..900&display=swap');
+        
+        body {
+            font-family: 'Sora', sans-serif;
+            background-color: #f7f7f7; /* Light background */
+            color: #1f1f1f; /* Dark text */
+            line-height: 1.3;
+        }
+        .text-accent {
+            color: #008080; /* Teal/Turquoise Accent */
+        }
+        .font-headline {
+            font-family: 'Unbounded', cursive;
+        }
+        /* ENHANCED BUTTON STYLE - NEON GREEN with WHITE TEXT */
+        .btn-primary {
+            background-color: #BCFF2F;
+            color: #000000; /* Text color changed to black for better contrast on bright background */
+            font-weight: 700;
+            box-shadow: 0 2px 8px rgba(188, 255, 47, 0.5);
+            padding: 0.35rem 0.75rem; /* Smaller padding */
+            font-size: 0.75rem; /* Smaller font */
+        }
+        .btn-primary:hover {
+            background-color: #d1ff5e;
+            box-shadow: 0 2px 10px rgba(188, 255, 47, 0.8);
+        }
+        .earning-card {
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+            transition: all 0.2s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .earning-card:hover {
+            border-color: #008080;
+            box-shadow: 0 2px 10px rgba(0, 128, 128, 0.2);
+            transform: translateY(-1px);
+        }
+        /* Tags are now smaller badges */
+        .tag-badge { font-size: 0.65rem; padding: 2px 6px; border-radius: 4px; font-weight: 700; }
+        .tag-top { background-color: #BCFF2F; color: #000000; }
+        .tag-legacy { background-color: #9333ea; color: #ffffff; }
+        .tag-high-ref { background-color: #ef4444; color: #ffffff; }
+        .tag-depin { background-color: #34d399; color: #000000; }
+        
+        /* Utility link styling (non-button links) */
+        .util-link {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.9rem;
+            font-weight: 600;
+            border-left: 4px solid transparent;
+            transition: all 0.2s;
+        }
+        .util-link:hover {
+            border-left: 4px solid #008080;
+            background-color: #e8e8e8;
+        }
+
+    </style>
+</head>
+<body class="min-h-screen">
+
+    <!-- Header and Main Title (Condensed) -->
+    <header class="bg-white/95 backdrop-blur-sm border-b border-gray-300 py-3">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h1 class="text-xl font-headline font-extrabold text-accent tracking-wide text-center">
+                CryptoGain Nexus
+            </h1>
+            <p class="text-center text-xs text-gray-500 mt-1">Your All-in-One Earning Hub.</p>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+
+        <!-- Active Earning Section -->
+        <section id="top-earning" class="mb-8">
+            <h2 class="text-2xl font-headline font-bold mb-4 border-b border-gray-300 pb-2">TOP <span class="text-accent">ACTIVE</span> EARNING</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4">
+                
+                <!-- AdBTC -->
+                <div class="earning-card p-3 rounded-xl">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-sm font-bold text-gray-900 leading-tight">AdBTC</h3>
+                        <div class="space-x-1">
+                            <span class="tag-badge tag-legacy">LEGACY</span>
+                            <span class="tag-badge tag-top">PTC</span>
+                        </div>
+                    </div>
+                    <p class="text-xs text-gray-600 mb-3 leading-snug">Surf Ads & Earn Bitcoin (15% Ref)</p>
+                    <a href="https://r.adbtc.top/1169353" target="_blank" class="w-full text-center block rounded-lg btn-primary">Earn now</a>
+                </div>
+                
+                <!-- CoinPayU -->
+                <div class="earning-card p-3 rounded-xl">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-sm font-bold text-gray-900 leading-tight">CoinPayU</h3>
+                        <span class="tag-badge tag-top">TOP</span>
+                    </div>
+                    <p class="text-xs text-gray-600 mb-3 leading-snug">PTC, Faucet & Offers (15% Ref)</p>
+                    <a href="https://coinpayu.com/lp2/dashboard" target="_blank" class="w-full text-center block rounded-lg btn-primary">Earn now</a>
+                </div>
+
+                <!-- CointiPly -->
+                <div class="earning-card p-3 rounded-xl">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-sm font-bold text-gray-900 leading-tight">CointiPly</h3>
+                        <span class="tag-badge tag-high-ref">20% REF</span>
+                    </div>
+                    <p class="text-xs text-gray-600 mb-3 leading-snug">Offerwalls, Faucet & Games</p>
+                    <a href="http://cointiply.com/r/1no5Y" target="_blank" class="w-full text-center block rounded-lg btn-primary">Earn now</a>
+                </div>
+                
+                <!-- FireFaucet -->
+                <div class="earning-card p-3 rounded-xl">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-sm font-bold text-gray-900 leading-tight">FireFaucet</h3>
+                        <span class="tag-badge tag-high-ref">20% REF</span>
+                    </div>
+                    <p class="text-xs text-gray-600 mb-3 leading-snug">Auto-Faucet (ACPs) & Tasks</p>
+                    <a href="https://firefaucet.win/ref/126786" target="_blank" class="w-full text-center block rounded-lg btn-primary">Earn now</a>
+                </div>
+
+                <!-- SimpleBits (New) -->
+                <div class="earning-card p-3 rounded-xl">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-sm font-bold text-gray-900 leading-tight">SimpleBits</h3>
+                        <span class="tag-badge tag-top">NEW</span>
+                    </div>
+                    <p class="text-xs text-gray-600 mb-3 leading-snug">Mining Simulator & Faucet</p>
+                    <a href="https://simplebits.io/ref/0rd4li1cSLTL" target="_blank" class="w-full text-center block rounded-lg btn-primary">Earn now</a>
+                </div>
+
+                <!-- VieFaucet (New) -->
+                <div class="earning-card p-3 rounded-xl">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-sm font-bold text-gray-900 leading-tight">VieFaucet</h3>
+                        <span class="tag-badge tag-high-ref">20% REF</span>
+                    </div>
+                    <p class="text-xs text-gray-600 mb-3 leading-snug">Multi-Coin Faucet & Offers</p>
+                    <a href="https://viefaucet.com/?r=6380ee9189dc9d60cddeaf22" target="_blank" class="w-full text-center block rounded-lg btn-primary">Earn now</a>
+                </div>
+
+                <!-- FreeBitco.in -->
+                <div class="earning-card p-3 rounded-xl">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-sm font-bold text-gray-900 leading-tight">FreeBitco.in</h3>
+                        <div class="space-x-1">
+                            <span class="tag-badge tag-high-ref">50% REF</span>
+                            <span class="tag-badge tag-legacy">OG</span>
+                        </div>
+                    </div>
+                    <p class="text-xs text-gray-600 mb-3 leading-snug">Hourly Faucet & Multiply</p>
+                    <a href="https://freebitco.in/?r=17006348" target="_blank" class="w-full text-center block rounded-lg btn-primary">Earn now</a>
+                </div>
+                
+                <!-- Everve -->
+                <div class="earning-card p-3 rounded-xl">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-sm font-bold text-gray-900 leading-tight">Everve</h3>
+                        <span class="tag-badge tag-high-ref">25% REF</span>
+                    </div>
+                    <p class="text-xs text-gray-600 mb-3 leading-snug">Social Media Tasks (Liking, Subscribing)</p>
+                    <a href="https://everve.net/ref/678797/" target="_blank" class="w-full text-center block rounded-lg btn-primary">Earn now</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Passive Income Section -->
+        <section id="passive-income" class="mb-8">
+            <h2 class="text-2xl font-headline font-bold mb-4 border-b border-gray-300 pb-2"><span class="text-accent">PASSIVE</span> INCOME</h2>
+            <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+                
+                <!-- Pawns -->
+                <div class="earning-card p-3 rounded-xl">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-sm font-bold text-gray-900 leading-tight">Pawns.app</h3>
+                        <span class="tag-badge tag-top">TOP</span>
+                    </div>
+                    <p class="text-xs text-gray-600 mb-3 leading-snug">Share Bandwidth (10% Ref)</p>
+                    <a href="https://pawns.app?r=1112465" target="_blank" class="w-full text-center block rounded-lg btn-primary">Run App</a>
+                </div>
+
+                <!-- Honeygain -->
+                <div class="earning-card p-3 rounded-xl">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-sm font-bold text-gray-900 leading-tight">Honeygain</h3>
+                        <span class="tag-badge tag-legacy">EST.</span>
+                    </div>
+                    <p class="text-xs text-gray-600 mb-3 leading-snug">Share Bandwidth (10% Ref)</p>
+                    <a href="https://r.honeygain.me/PYMNF83E8F" target="_blank" class="w-full text-center block rounded-lg btn-primary">Run App</a>
+                </div>
+                
+                <!-- Grass.io (New) -->
+                <div class="earning-card p-3 rounded-xl">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-sm font-bold text-gray-900 leading-tight">Grass.io</h3>
+                        <span class="tag-badge tag-depin">DEPIN</span>
+                    </div>
+                    <p class="text-xs text-gray-600 mb-3 leading-snug">Bandwidth Airdrop Points</p>
+                    <a href="https://app.getgrass.io/register?referralCode=XBPRl6U7sAvvzRX" target="_blank" class="w-full text-center block rounded-lg btn-primary">Install & Earn</a>
+                </div>
+
+                <!-- PacketStream -->
+                <div class="earning-card p-3 rounded-xl">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-sm font-bold text-gray-900 leading-tight">PacketStream</h3>
+                        <span class="tag-badge tag-high-ref">20% REF</span>
+                    </div>
+                    <p class="text-xs text-gray-600 mb-3 leading-snug">Pay per GB shared</p>
+                    <a href="https://packetstream.io/?psr=4cTj" target="_blank" class="w-full text-center block rounded-lg btn-primary">Run App</a>
+                </div>
+
+                <!-- Unmineable -->
+                <div class="earning-card p-3 rounded-xl">
+                    <h3 class="text-sm font-bold text-gray-900 leading-tight mb-2">Unmineable</h3>
+                    <p class="text-xs text-gray-600 mb-3 leading-snug">Easy CPU/GPU Crypto Mining</p>
+                    <a href="https://unmineable.com/?ref=bjw4-ta61" target="_blank" class="w-full text-center block rounded-lg btn-primary">Start Mining</a>
+                </div>
+
+            </div>
+        </section>
+        
+        <!-- WEB3 & DEPIN Section (All Links Expanded) -->
+        <section id="web3-depin" class="mb-8">
+            <h2 class="text-2xl font-headline font-bold mb-4 border-b border-gray-300 pb-2"><span class="text-accent">WEB3</span> & AIRDROP QUESTS</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4">
+                
+                <!-- Certik Skynet -->
+                <div class="earning-card p-3 rounded-xl">
+                    <h3 class="text-sm font-bold text-gray-900 leading-tight mb-2">Certik Skynet</h3>
+                    <p class="text-xs text-gray-600 mb-3 leading-snug">Security Audit Platform Quests</p>
+                    <a href="https://skynet.certik.com/quest/signup?referralId=4324d09a-bf19-437c-8635-645a52dbf136" target="_blank" class="w-full text-center block rounded-lg btn-primary">Start Quest</a>
+                </div>
+                <!-- Billions Network -->
+                <div class="earning-card p-3 rounded-xl">
+                    <h3 class="text-sm font-bold text-gray-900 leading-tight mb-2">Billions Network</h3>
+                    <p class="text-xs text-gray-600 mb-3 leading-snug">Community & Protocol Quests</p>
+                    <a href="https://signup.billions.network?rc=IMENAAXD" target="_blank" class="w-full text-center block rounded-lg btn-primary">Join</a>
+                </div>
+                <!-- Galxe (OATs & Quests) -->
+                <div class="earning-card p-3 rounded-xl">
+                    <h3 class="text-sm font-bold text-gray-900 leading-tight mb-2">Galxe Hub</h3>
+                    <p class="text-xs text-gray-600 mb-3 leading-snug">Web3 Loyalty & Airdrop Eligibility</p>
+                    <a href="https://galxe.com/" target="_blank" class="w-full text-center block rounded-lg btn-primary">Explore</a>
+                </div>
+                <!-- Nansen AI (Analytics) -->
+                <div class="earning-card p-3 rounded-xl">
+                    <h3 class="text-sm font-bold text-gray-900 leading-tight mb-2">Nansen AI</h3>
+                    <p class="text-xs text-gray-600 mb-3 leading-snug">On-chain Analytics Access</p>
+                    <a href="https://app.nansen.ai/ref?MgzAfN6OSnQ" target="_blank" class="w-full text-center block rounded-lg btn-primary">View</a>
+                </div>
+                <!-- Blockscout (Explorer Ref) -->
+                <div class="earning-card p-3 rounded-xl">
+                    <h3 class="text-sm font-bold text-gray-900 leading-tight mb-2">Blockscout</h3>
+                    <p class="text-xs text-gray-600 mb-3 leading-snug">Multi-Chain Explorer Ref</p>
+                    <a href="https://eth.blockscout.com?ref=6RZXK3" target="_blank" class="w-full text-center block rounded-lg btn-primary">Go to Site</a>
+                </div>
+                <!-- Minionlab (Web3 Tool) -->
+                <div class="earning-card p-3 rounded-xl">
+                    <h3 class="text-sm font-bold text-gray-900 leading-tight mb-2">Minionlab</h3>
+                    <p class="text-xs text-gray-600 mb-3 leading-snug">Web3 Automation Tool</p>
+                    <a href="https://ref.minionlab.io/?referralCode=crxyqBGp" target="_blank" class="w-full text-center block rounded-lg btn-primary">Go to Site</a>
+                </div>
+                <!-- Gokite AI (Testnet) -->
+                <div class="earning-card p-3 rounded-xl">
+                    <h3 class="text-sm font-bold text-gray-900 leading-tight mb-2">Gokite AI</h3>
+                    <p class="text-xs text-gray-600 mb-3 leading-snug">AI Infrastructure Testnet</p>
+                    <a href="https://testnet.gokite.ai?referralCode=CZ7KR67C" target="_blank" class="w-full text-center block rounded-lg btn-primary">Testnet</a>
+                </div>
+                <!-- ZKVerify (Loyalty Points) -->
+                <div class="earning-card p-3 rounded-xl">
+                    <h3 class="text-sm font-bold text-gray-900 leading-tight mb-2">ZKVerify</h3>
+                    <p class="text-xs text-gray-600 mb-3 leading-snug">Loyalty Points & Quests</p>
+                    <a href="https://points.zkverify.io/loyalty" target="_blank" class="w-full text-center block rounded-lg btn-primary">Join</a>
+                </div>
+                <!-- Linera (Quests) -->
+                <div class="earning-card p-3 rounded-xl">
+                    <h3 class="text-sm font-bold text-gray-900 leading-tight mb-2">Linera</h3>
+                    <p class="text-xs text-gray-600 mb-3 leading-snug">Protocol Quest Portal</p>
+                    <a href="https://portal.linera.net/quests" target="_blank" class="w-full text-center block rounded-lg btn-primary">Quests</a>
+                </div>
+                <!-- Peaq Network (DePIN Portal) -->
+                <div class="earning-card p-3 rounded-xl">
+                    <h3 class="text-sm font-bold text-gray-900 leading-tight mb-2">Peaq Network</h3>
+                    <p class="text-xs text-gray-600 mb-3 leading-snug">DePIN Ecosystem Portal</p>
+                    <a href="https://portal.peaq.xyz/?ref=c3u4jX08W" target="_blank" class="w-full text-center block rounded-lg btn-primary">Portal</a>
+                </div>
+                <!-- Ducat Protocol (Quanta Points) -->
+                <div class="earning-card p-3 rounded-xl">
+                    <h3 class="text-sm font-bold text-gray-900 leading-tight mb-2">Ducat Protocol</h3>
+                    <p class="text-xs text-gray-600 mb-3 leading-snug">Quanta Points System</p>
+                    <a href="https://app.ducatprotocol.com/quanta?referral=aVv_iBdp3kpa" target="_blank" class="w-full text-center block rounded-lg btn-primary">Join</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Utility and Tools Section (Links Grouped in 3 Columns) -->
+        <section id="utility-tools" class="mb-8">
+            <h2 class="text-2xl font-headline font-bold mb-4 border-b border-gray-300 pb-2">ESSENTIAL <span class="text-accent">UTILITIES</span></h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+
+                <!-- Column 1: Exchanges/Wallets -->
+                <div>
+                    <h4 class="text-lg font-bold text-gray-800 mb-3">Exchanges & Wallets</h4>
+                    <div class="space-y-3">
+                        <a href="https://accounts.binance.com/en/register?ref=TAWUFT3R" target="_blank" class="util-link">
+                            <span>Binance</span>
+                            <span class="text-xs text-gray-500">Largest Exchange</span>
+                        </a>
+                        <a href="https://bingx.com/invite/9NNUWM" target="_blank" class="util-link">
+                            <span>BingX</span>
+                            <span class="text-xs text-gray-500">Futures/Spot Trading</span>
+                        </a>
+                        <a href="https://faucetpay.io/?r=95880" target="_blank" class="util-link">
+                            <span>FaucetPay</span>
+                            <span class="text-xs text-gray-500">Micro-Wallet</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Column 2: Traffic & Tools -->
+                <div>
+                    <h4 class="text-lg font-bold text-gray-800 mb-3">Traffic & Tools</h4>
+                    <div class="space-y-3">
+                         <a href="https://payeer.com/?session=11397475" target="_blank" class="util-link">
+                            <span>Payeer</span>
+                            <span class="text-xs text-gray-500">FIAT/Crypto Processor</span>
+                        </a>
+                        <a href="https://www.easyhits4u.com/?ref=olivia965" target="_blank" class="util-link">
+                            <span>EasyHits4U</span>
+                            <span class="text-xs text-gray-500">Manual Traffic</span>
+                        </a>
+                        <a href="https://2captcha.com/?from=9690712" target="_blank" class="util-link opacity-60">
+                            <span>2Captcha</span>
+                            <span class="text-xs text-gray-500">Captcha Solving</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Column 3: Link Hubs -->
+                <div>
+                    <h4 class="text-lg font-bold text-gray-800 mb-3">Link Hubs & Lists</h4>
+                    <div class="space-y-3">
+                        <a href="https://start.me/p/aL44E0/online-income" target="_blank" class="util-link">
+                            <span>Start.me - Income</span>
+                            <span class="text-xs text-gray-500">General List</span>
+                        </a>
+                        <a href="https://start.me/p/lLBAx7/free-crypto" target="_blank" class="util-link">
+                            <span>Start.me - Crypto</span>
+                            <span class="text-xs text-gray-500">Free Crypto List</span>
+                        </a>
+                        <a href="https://cryptokinase.dropmark.com/1141913" target="_blank" class="util-link">
+                            <span>Dropmark</span>
+                            <span class="text-xs text-gray-500">Visual Link Board</span>
+                        </a>
+                        <a href="https://beacons.ai/dashboard" target="_blank" class="util-link">
+                            <span>Beacons.ai</span>
+                            <span class="text-xs text-gray-500">Social Link Aggregator</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer (Minimal) -->
+    <footer class="bg-gray-100 border-t border-gray-300 py-4">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-xs text-gray-500">All links provided are personal referrals. DYOR required. | © 2025 CryptoGain Nexus</p>
+        </div>
+    </footer>
+
+</body>
+</html>
